@@ -16,6 +16,9 @@
 
 <main>
   <section>
+    <Carousel items={clothesCollection} />
+  </section>
+  <section>
     <div
       class="flex flex-col px-8 py-20 text-white border border-black bg-dark lg:flex-row lg:items-center"
     >
@@ -40,8 +43,5 @@
     <div class="lg:h-[90vh]">
       <ThreeItemGrid products={featuredCollection} />
     </div>
-  </section>
-  <section>
-    <Carousel items={clothesCollection} />
   </section>
 </main>
