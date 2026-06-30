@@ -16,7 +16,8 @@
   let tabs = [
     { name: 'All', path: '/search' },
     { name: 'Featured', path: '/search/featured' },
-    { name: 'Apparel', path: '/search/clothes' }
+    { name: 'Apparel', path: '/search/clothes' },
+    { name: 'About Us', path: '/about' }
   ];
   function onOpenCart() {
     showMenu = false;
